@@ -5,4 +5,5 @@ This dataset is owned and distributed by Meta.
 
 # Accessing the Dataset
 📦 Request accessing the dataset from the following link:
+
 👉 [https://www.projectaria.com/datasets/reading-in-the-wild/#download-dataset](https://www.projectaria.com/datasets/reading-in-the-wild/#download-dataset)
