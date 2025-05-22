@@ -1,0 +1,1235 @@
+[
+    {
+        "id": "421194710750139",
+        "__typename": "GaiaRecording",
+        "annotation_jobs": [],
+        "attachments": [],
+        "binaries": {
+            "count": 1
+        },
+        "capture_time": 1729190163,
+        "custom_file_metadata": [],
+        "upload_time": 1729201322,
+        "hardware": [],
+        "recordings": [],
+        "from_recording": [
+            {
+                "id": "907129427418886",
+                "__typename": "GaiaRecording",
+                "annotation_jobs": [],
+                "attachments": [],
+                "binaries": {
+                    "count": 0
+                },
+                "capture_time": 1729190163,
+                "custom_file_metadata": [],
+                "upload_time": 1729201382,
+                "hardware": [],
+                "recordings": [
+                    {
+                        "id": "421194710750139"
+                    },
+                    {
+                        "id": "566923899230574"
+                    },
+                    {
+                        "id": "1461097141244806"
+                    },
+                    {
+                        "id": "1579463229628801"
+                    },
+                    {
+                        "id": "3381155652186355"
+                    }
+                ],
+                "from_recording": [],
+                "results": [],
+                "nodes": [],
+                "session": null,
+                "subjects": [],
+                "location": null,
+                "file_name": "2069629d99f74e3caf554c12d69efebb",
+                "file_type": "vrs",
+                "description": null,
+                "file_size": "0",
+                "file_size_gb": 0,
+                "ground_truths": [],
+                "project_owner": "Ariane_ResearchMain",
+                "tags": [
+                    {
+                        "id": "613150280100107",
+                        "tag_name": "stub-parent"
+                    },
+                    {
+                        "id": "1119797892379392",
+                        "tag_name": "mps2.4"
+                    }
+                ],
+                "schema": "surreal_aria_recording_metadata/v1",
+                "properties": {
+                    "campaign": {
+                        "c_project_id": "1328930761416933",
+                        "c_project_name": "[External] Reading in the Wild Data Collection Pilot",
+                        "c_task_id": "556691300286531",
+                        "c_task_name": "16. Read and Don't Read"
+                    },
+                    "cohort": "external",
+                    "needs_anonymization": true,
+                    "encryption_enabled": true,
+                    "type": "real-bypass-quarantine",
+                    "start_time": 1729190163,
+                    "duration": 312.7862198499997,
+                    "user_id": "fd6fdb5307ccb280a82ee9b260e1f0c1",
+                    "telemetry_id": "ac8af381-cec4-4920-90b1-01a0ed51ef12",
+                    "companion_version": "180.0.0.2.119",
+                    "data_quality_stats": {
+                        "audio": {
+                            "dropped": 59,
+                            "expected": 15007790,
+                            "processed": 15007731,
+                            "score": 99.99960327148438,
+                            "sequential_drops": {
+                                "1": 59
+                            },
+                            "time_error": 46
+                        },
+                        "barometer": {
+                            "dropped": 0,
+                            "expected": 15366,
+                            "processed": 15366,
+                            "score": 100,
+                            "sequential_drops": {},
+                            "time_error": 0
+                        },
+                        "camera_timestamp_drop_scores": {
+                            "et": 2.401618719100952,
+                            "rgb": 0,
+                            "slam1": 0,
+                            "slam2": 0
+                        },
+                        "et_camera": {
+                            "dropped": 451,
+                            "expected": 18779,
+                            "processed": 18328,
+                            "score": 97.59838104248047,
+                            "sequential_drops": {
+                                "11": 1,
+                                "12": 1,
+                                "2": 49,
+                                "23": 1,
+                                "3": 39,
+                                "4": 11,
+                                "5": 14,
+                                "6": 4,
+                                "7": 5,
+                                "8": 1,
+                                "9": 1
+                            },
+                            "time_error": 0
+                        },
+                        "imu_1": {
+                            "dropped": 0,
+                            "expected": 313203,
+                            "processed": 313203,
+                            "score": 100,
+                            "sequential_drops": {},
+                            "time_error": 0
+                        },
+                        "imu_2": {
+                            "dropped": 0,
+                            "expected": 253049,
+                            "processed": 253049,
+                            "score": 100,
+                            "sequential_drops": {},
+                            "time_error": 0
+                        },
+                        "magnetometer": {
+                            "dropped": 0,
+                            "expected": 3105,
+                            "processed": 3105,
+                            "score": 100,
+                            "sequential_drops": {},
+                            "time_error": 0
+                        },
+                        "rgb_camera": {
+                            "dropped": 0,
+                            "expected": 9389,
+                            "processed": 9389,
+                            "score": 100,
+                            "sequential_drops": {},
+                            "time_error": 0
+                        },
+                        "sensor_misalignment": {
+                            "slam_camera_1-rgb_camera": 99,
+                            "slam_camera_2-rgb_camera": 99,
+                            "slam_camera_2-slam_camera_1": 100
+                        },
+                        "slam_camera_1": {
+                            "dropped": 2,
+                            "expected": 9389,
+                            "processed": 9387,
+                            "score": 99.97869873046875,
+                            "sequential_drops": {
+                                "1": 2
+                            },
+                            "time_error": 0
+                        },
+                        "slam_camera_2": {
+                            "dropped": 1,
+                            "expected": 9389,
+                            "processed": 9388,
+                            "score": 99.98934936523438,
+                            "sequential_drops": {
+                                "1": 1
+                            },
+                            "time_error": 0
+                        }
+                    },
+                    "device_id": "b851e61d-6200-4780-ae07-05d71bcb308b",
+                    "device_test_automation_enabled": false,
+                    "device_version": "49702050008900070",
+                    "end_time": 1729190476,
+                    "file_size": 4945468251,
+                    "filename": "ac8af381-cec4-4920-90b1-01a0ed51ef12.vrs",
+                    "firmware_version": "3.32.1",
+                    "hash_ca_id": "LTE4OTYzNDY3MjY=",
+                    "is_vio_preprocessing_enabled": false,
+                    "name": "16. Read and Don't Read 34",
+                    "notes": "9",
+                    "ntp_server_hostname": "",
+                    "ntp_time_enabled": false,
+                    "recording_profile": "profile28",
+                    "ticsync_enabled": false,
+                    "timecode_enabled": false,
+                    "timecode_trigger_enabled": false,
+                    "upload_destination": "META_STANDARD_INGESTION",
+                    "vio_data_saving_enabled": false,
+                    "vio_enabled": false,
+                    "vio_setup_mode": "Temple2",
+                    "tags": [
+                        {
+                            "title": "What type of reading material did you read? ",
+                            "tags": [
+                                "Print media (e.g. book/magazine/newspaper)"
+                            ]
+                        },
+                        {
+                            "title": "[Moderator] Participant Number",
+                            "tags": [
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                "creator_id": null,
+                "unique_id": null
+            }
+        ],
+        "results": [],
+        "nodes": [],
+        "session": null,
+        "subjects": [],
+        "location": null,
+        "file_name": "_ac8af381-cec4-4920-90b1-01a0ed51ef12",
+        "file_type": "vrs",
+        "description": null,
+        "file_size": "67003049",
+        "file_size_gb": 0.062401452101767,
+        "ground_truths": [],
+        "project_owner": "Ariane_ResearchMotionSensors",
+        "tags": [],
+        "schema": null,
+        "properties": null,
+        "creator_id": null,
+        "unique_id": null
+    },
+    {
+        "id": "566923899230574",
+        "__typename": "GaiaRecording",
+        "annotation_jobs": [],
+        "attachments": [],
+        "binaries": {
+            "count": 1
+        },
+        "capture_time": 1729190163,
+        "custom_file_metadata": [],
+        "upload_time": 1729201284,
+        "hardware": [],
+        "recordings": [],
+        "from_recording": [
+            {
+                "id": "907129427418886",
+                "__typename": "GaiaRecording",
+                "annotation_jobs": [],
+                "attachments": [],
+                "binaries": {
+                    "count": 0
+                },
+                "capture_time": 1729190163,
+                "custom_file_metadata": [],
+                "upload_time": 1729201382,
+                "hardware": [],
+                "recordings": [
+                    {
+                        "id": "421194710750139"
+                    },
+                    {
+                        "id": "566923899230574"
+                    },
+                    {
+                        "id": "1461097141244806"
+                    },
+                    {
+                        "id": "1579463229628801"
+                    },
+                    {
+                        "id": "3381155652186355"
+                    }
+                ],
+                "from_recording": [],
+                "results": [],
+                "nodes": [],
+                "session": null,
+                "subjects": [],
+                "location": null,
+                "file_name": "2069629d99f74e3caf554c12d69efebb",
+                "file_type": "vrs",
+                "description": null,
+                "file_size": "0",
+                "file_size_gb": 0,
+                "ground_truths": [],
+                "project_owner": "Ariane_ResearchMain",
+                "tags": [
+                    {
+                        "id": "613150280100107",
+                        "tag_name": "stub-parent"
+                    },
+                    {
+                        "id": "1119797892379392",
+                        "tag_name": "mps2.4"
+                    }
+                ],
+                "schema": "surreal_aria_recording_metadata/v1",
+                "properties": {
+                    "campaign": {
+                        "c_project_id": "1328930761416933",
+                        "c_project_name": "[External] Reading in the Wild Data Collection Pilot",
+                        "c_task_id": "556691300286531",
+                        "c_task_name": "16. Read and Don't Read"
+                    },
+                    "cohort": "external",
+                    "needs_anonymization": true,
+                    "encryption_enabled": true,
+                    "type": "real-bypass-quarantine",
+                    "start_time": 1729190163,
+                    "duration": 312.7862198499997,
+                    "user_id": "fd6fdb5307ccb280a82ee9b260e1f0c1",
+                    "telemetry_id": "ac8af381-cec4-4920-90b1-01a0ed51ef12",
+                    "companion_version": "180.0.0.2.119",
+                    "data_quality_stats": {
+                        "audio": {
+                            "dropped": 59,
+                            "expected": 15007790,
+                            "processed": 15007731,
+                            "score": 99.99960327148438,
+                            "sequential_drops": {
+                                "1": 59
+                            },
+                            "time_error": 46
+                        },
+                        "barometer": {
+                            "dropped": 0,
+                            "expected": 15366,
+                            "processed": 15366,
+                            "score": 100,
+                            "sequential_drops": {},
+                            "time_error": 0
+                        },
+                        "camera_timestamp_drop_scores": {
+                            "et": 2.401618719100952,
+                            "rgb": 0,
+                            "slam1": 0,
+                            "slam2": 0
+                        },
+                        "et_camera": {
+                            "dropped": 451,
+                            "expected": 18779,
+                            "processed": 18328,
+                            "score": 97.59838104248047,
+                            "sequential_drops": {
+                                "11": 1,
+                                "12": 1,
+                                "2": 49,
+                                "23": 1,
+                                "3": 39,
+                                "4": 11,
+                                "5": 14,
+                                "6": 4,
+                                "7": 5,
+                                "8": 1,
+                                "9": 1
+                            },
+                            "time_error": 0
+                        },
+                        "imu_1": {
+                            "dropped": 0,
+                            "expected": 313203,
+                            "processed": 313203,
+                            "score": 100,
+                            "sequential_drops": {},
+                            "time_error": 0
+                        },
+                        "imu_2": {
+                            "dropped": 0,
+                            "expected": 253049,
+                            "processed": 253049,
+                            "score": 100,
+                            "sequential_drops": {},
+                            "time_error": 0
+                        },
+                        "magnetometer": {
+                            "dropped": 0,
+                            "expected": 3105,
+                            "processed": 3105,
+                            "score": 100,
+                            "sequential_drops": {},
+                            "time_error": 0
+                        },
+                        "rgb_camera": {
+                            "dropped": 0,
+                            "expected": 9389,
+                            "processed": 9389,
+                            "score": 100,
+                            "sequential_drops": {},
+                            "time_error": 0
+                        },
+                        "sensor_misalignment": {
+                            "slam_camera_1-rgb_camera": 99,
+                            "slam_camera_2-rgb_camera": 99,
+                            "slam_camera_2-slam_camera_1": 100
+                        },
+                        "slam_camera_1": {
+                            "dropped": 2,
+                            "expected": 9389,
+                            "processed": 9387,
+                            "score": 99.97869873046875,
+                            "sequential_drops": {
+                                "1": 2
+                            },
+                            "time_error": 0
+                        },
+                        "slam_camera_2": {
+                            "dropped": 1,
+                            "expected": 9389,
+                            "processed": 9388,
+                            "score": 99.98934936523438,
+                            "sequential_drops": {
+                                "1": 1
+                            },
+                            "time_error": 0
+                        }
+                    },
+                    "device_id": "b851e61d-6200-4780-ae07-05d71bcb308b",
+                    "device_test_automation_enabled": false,
+                    "device_version": "49702050008900070",
+                    "end_time": 1729190476,
+                    "file_size": 4945468251,
+                    "filename": "ac8af381-cec4-4920-90b1-01a0ed51ef12.vrs",
+                    "firmware_version": "3.32.1",
+                    "hash_ca_id": "LTE4OTYzNDY3MjY=",
+                    "is_vio_preprocessing_enabled": false,
+                    "name": "16. Read and Don't Read 34",
+                    "notes": "9",
+                    "ntp_server_hostname": "",
+                    "ntp_time_enabled": false,
+                    "recording_profile": "profile28",
+                    "ticsync_enabled": false,
+                    "timecode_enabled": false,
+                    "timecode_trigger_enabled": false,
+                    "upload_destination": "META_STANDARD_INGESTION",
+                    "vio_data_saving_enabled": false,
+                    "vio_enabled": false,
+                    "vio_setup_mode": "Temple2",
+                    "tags": [
+                        {
+                            "title": "What type of reading material did you read? ",
+                            "tags": [
+                                "Print media (e.g. book/magazine/newspaper)"
+                            ]
+                        },
+                        {
+                            "title": "[Moderator] Participant Number",
+                            "tags": [
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                "creator_id": null,
+                "unique_id": null
+            }
+        ],
+        "results": [],
+        "nodes": [],
+        "session": null,
+        "subjects": [],
+        "location": null,
+        "file_name": "_ac8af381-cec4-4920-90b1-01a0ed51ef12",
+        "file_type": "vrs",
+        "description": null,
+        "file_size": "309789002",
+        "file_size_gb": 0.2885134909302,
+        "ground_truths": [],
+        "project_owner": "Ariane_ResearchAudio",
+        "tags": [],
+        "schema": null,
+        "properties": null,
+        "creator_id": null,
+        "unique_id": null
+    },
+    {
+        "id": "1461097141244806",
+        "__typename": "GaiaRecording",
+        "annotation_jobs": [],
+        "attachments": [],
+        "binaries": {
+            "count": 1
+        },
+        "capture_time": 1729190163,
+        "custom_file_metadata": [],
+        "upload_time": 1729201376,
+        "hardware": [],
+        "recordings": [],
+        "from_recording": [
+            {
+                "id": "907129427418886",
+                "__typename": "GaiaRecording",
+                "annotation_jobs": [],
+                "attachments": [],
+                "binaries": {
+                    "count": 0
+                },
+                "capture_time": 1729190163,
+                "custom_file_metadata": [],
+                "upload_time": 1729201382,
+                "hardware": [],
+                "recordings": [
+                    {
+                        "id": "421194710750139"
+                    },
+                    {
+                        "id": "566923899230574"
+                    },
+                    {
+                        "id": "1461097141244806"
+                    },
+                    {
+                        "id": "1579463229628801"
+                    },
+                    {
+                        "id": "3381155652186355"
+                    }
+                ],
+                "from_recording": [],
+                "results": [],
+                "nodes": [],
+                "session": null,
+                "subjects": [],
+                "location": null,
+                "file_name": "2069629d99f74e3caf554c12d69efebb",
+                "file_type": "vrs",
+                "description": null,
+                "file_size": "0",
+                "file_size_gb": 0,
+                "ground_truths": [],
+                "project_owner": "Ariane_ResearchMain",
+                "tags": [
+                    {
+                        "id": "613150280100107",
+                        "tag_name": "stub-parent"
+                    },
+                    {
+                        "id": "1119797892379392",
+                        "tag_name": "mps2.4"
+                    }
+                ],
+                "schema": "surreal_aria_recording_metadata/v1",
+                "properties": {
+                    "campaign": {
+                        "c_project_id": "1328930761416933",
+                        "c_project_name": "[External] Reading in the Wild Data Collection Pilot",
+                        "c_task_id": "556691300286531",
+                        "c_task_name": "16. Read and Don't Read"
+                    },
+                    "cohort": "external",
+                    "needs_anonymization": true,
+                    "encryption_enabled": true,
+                    "type": "real-bypass-quarantine",
+                    "start_time": 1729190163,
+                    "duration": 312.7862198499997,
+                    "user_id": "fd6fdb5307ccb280a82ee9b260e1f0c1",
+                    "telemetry_id": "ac8af381-cec4-4920-90b1-01a0ed51ef12",
+                    "companion_version": "180.0.0.2.119",
+                    "data_quality_stats": {
+                        "audio": {
+                            "dropped": 59,
+                            "expected": 15007790,
+                            "processed": 15007731,
+                            "score": 99.99960327148438,
+                            "sequential_drops": {
+                                "1": 59
+                            },
+                            "time_error": 46
+                        },
+                        "barometer": {
+                            "dropped": 0,
+                            "expected": 15366,
+                            "processed": 15366,
+                            "score": 100,
+                            "sequential_drops": {},
+                            "time_error": 0
+                        },
+                        "camera_timestamp_drop_scores": {
+                            "et": 2.401618719100952,
+                            "rgb": 0,
+                            "slam1": 0,
+                            "slam2": 0
+                        },
+                        "et_camera": {
+                            "dropped": 451,
+                            "expected": 18779,
+                            "processed": 18328,
+                            "score": 97.59838104248047,
+                            "sequential_drops": {
+                                "11": 1,
+                                "12": 1,
+                                "2": 49,
+                                "23": 1,
+                                "3": 39,
+                                "4": 11,
+                                "5": 14,
+                                "6": 4,
+                                "7": 5,
+                                "8": 1,
+                                "9": 1
+                            },
+                            "time_error": 0
+                        },
+                        "imu_1": {
+                            "dropped": 0,
+                            "expected": 313203,
+                            "processed": 313203,
+                            "score": 100,
+                            "sequential_drops": {},
+                            "time_error": 0
+                        },
+                        "imu_2": {
+                            "dropped": 0,
+                            "expected": 253049,
+                            "processed": 253049,
+                            "score": 100,
+                            "sequential_drops": {},
+                            "time_error": 0
+                        },
+                        "magnetometer": {
+                            "dropped": 0,
+                            "expected": 3105,
+                            "processed": 3105,
+                            "score": 100,
+                            "sequential_drops": {},
+                            "time_error": 0
+                        },
+                        "rgb_camera": {
+                            "dropped": 0,
+                            "expected": 9389,
+                            "processed": 9389,
+                            "score": 100,
+                            "sequential_drops": {},
+                            "time_error": 0
+                        },
+                        "sensor_misalignment": {
+                            "slam_camera_1-rgb_camera": 99,
+                            "slam_camera_2-rgb_camera": 99,
+                            "slam_camera_2-slam_camera_1": 100
+                        },
+                        "slam_camera_1": {
+                            "dropped": 2,
+                            "expected": 9389,
+                            "processed": 9387,
+                            "score": 99.97869873046875,
+                            "sequential_drops": {
+                                "1": 2
+                            },
+                            "time_error": 0
+                        },
+                        "slam_camera_2": {
+                            "dropped": 1,
+                            "expected": 9389,
+                            "processed": 9388,
+                            "score": 99.98934936523438,
+                            "sequential_drops": {
+                                "1": 1
+                            },
+                            "time_error": 0
+                        }
+                    },
+                    "device_id": "b851e61d-6200-4780-ae07-05d71bcb308b",
+                    "device_test_automation_enabled": false,
+                    "device_version": "49702050008900070",
+                    "end_time": 1729190476,
+                    "file_size": 4945468251,
+                    "filename": "ac8af381-cec4-4920-90b1-01a0ed51ef12.vrs",
+                    "firmware_version": "3.32.1",
+                    "hash_ca_id": "LTE4OTYzNDY3MjY=",
+                    "is_vio_preprocessing_enabled": false,
+                    "name": "16. Read and Don't Read 34",
+                    "notes": "9",
+                    "ntp_server_hostname": "",
+                    "ntp_time_enabled": false,
+                    "recording_profile": "profile28",
+                    "ticsync_enabled": false,
+                    "timecode_enabled": false,
+                    "timecode_trigger_enabled": false,
+                    "upload_destination": "META_STANDARD_INGESTION",
+                    "vio_data_saving_enabled": false,
+                    "vio_enabled": false,
+                    "vio_setup_mode": "Temple2",
+                    "tags": [
+                        {
+                            "title": "What type of reading material did you read? ",
+                            "tags": [
+                                "Print media (e.g. book/magazine/newspaper)"
+                            ]
+                        },
+                        {
+                            "title": "[Moderator] Participant Number",
+                            "tags": [
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                "creator_id": null,
+                "unique_id": null
+            }
+        ],
+        "results": [],
+        "nodes": [],
+        "session": null,
+        "subjects": [],
+        "location": null,
+        "file_name": "_ac8af381-cec4-4920-90b1-01a0ed51ef12",
+        "file_type": "vrs",
+        "description": null,
+        "file_size": "4219864633",
+        "file_size_gb": 3.9300551945344,
+        "ground_truths": [],
+        "project_owner": "Ariane_ResearchScene",
+        "tags": [],
+        "schema": null,
+        "properties": null,
+        "creator_id": null,
+        "unique_id": null
+    },
+    {
+        "id": "1579463229628801",
+        "__typename": "GaiaRecording",
+        "annotation_jobs": [],
+        "attachments": [],
+        "binaries": {
+            "count": 1
+        },
+        "capture_time": 1729190163,
+        "custom_file_metadata": [],
+        "upload_time": 1729201307,
+        "hardware": [],
+        "recordings": [],
+        "from_recording": [
+            {
+                "id": "907129427418886",
+                "__typename": "GaiaRecording",
+                "annotation_jobs": [],
+                "attachments": [],
+                "binaries": {
+                    "count": 0
+                },
+                "capture_time": 1729190163,
+                "custom_file_metadata": [],
+                "upload_time": 1729201382,
+                "hardware": [],
+                "recordings": [
+                    {
+                        "id": "421194710750139"
+                    },
+                    {
+                        "id": "566923899230574"
+                    },
+                    {
+                        "id": "1461097141244806"
+                    },
+                    {
+                        "id": "1579463229628801"
+                    },
+                    {
+                        "id": "3381155652186355"
+                    }
+                ],
+                "from_recording": [],
+                "results": [],
+                "nodes": [],
+                "session": null,
+                "subjects": [],
+                "location": null,
+                "file_name": "2069629d99f74e3caf554c12d69efebb",
+                "file_type": "vrs",
+                "description": null,
+                "file_size": "0",
+                "file_size_gb": 0,
+                "ground_truths": [],
+                "project_owner": "Ariane_ResearchMain",
+                "tags": [
+                    {
+                        "id": "613150280100107",
+                        "tag_name": "stub-parent"
+                    },
+                    {
+                        "id": "1119797892379392",
+                        "tag_name": "mps2.4"
+                    }
+                ],
+                "schema": "surreal_aria_recording_metadata/v1",
+                "properties": {
+                    "campaign": {
+                        "c_project_id": "1328930761416933",
+                        "c_project_name": "[External] Reading in the Wild Data Collection Pilot",
+                        "c_task_id": "556691300286531",
+                        "c_task_name": "16. Read and Don't Read"
+                    },
+                    "cohort": "external",
+                    "needs_anonymization": true,
+                    "encryption_enabled": true,
+                    "type": "real-bypass-quarantine",
+                    "start_time": 1729190163,
+                    "duration": 312.7862198499997,
+                    "user_id": "fd6fdb5307ccb280a82ee9b260e1f0c1",
+                    "telemetry_id": "ac8af381-cec4-4920-90b1-01a0ed51ef12",
+                    "companion_version": "180.0.0.2.119",
+                    "data_quality_stats": {
+                        "audio": {
+                            "dropped": 59,
+                            "expected": 15007790,
+                            "processed": 15007731,
+                            "score": 99.99960327148438,
+                            "sequential_drops": {
+                                "1": 59
+                            },
+                            "time_error": 46
+                        },
+                        "barometer": {
+                            "dropped": 0,
+                            "expected": 15366,
+                            "processed": 15366,
+                            "score": 100,
+                            "sequential_drops": {},
+                            "time_error": 0
+                        },
+                        "camera_timestamp_drop_scores": {
+                            "et": 2.401618719100952,
+                            "rgb": 0,
+                            "slam1": 0,
+                            "slam2": 0
+                        },
+                        "et_camera": {
+                            "dropped": 451,
+                            "expected": 18779,
+                            "processed": 18328,
+                            "score": 97.59838104248047,
+                            "sequential_drops": {
+                                "11": 1,
+                                "12": 1,
+                                "2": 49,
+                                "23": 1,
+                                "3": 39,
+                                "4": 11,
+                                "5": 14,
+                                "6": 4,
+                                "7": 5,
+                                "8": 1,
+                                "9": 1
+                            },
+                            "time_error": 0
+                        },
+                        "imu_1": {
+                            "dropped": 0,
+                            "expected": 313203,
+                            "processed": 313203,
+                            "score": 100,
+                            "sequential_drops": {},
+                            "time_error": 0
+                        },
+                        "imu_2": {
+                            "dropped": 0,
+                            "expected": 253049,
+                            "processed": 253049,
+                            "score": 100,
+                            "sequential_drops": {},
+                            "time_error": 0
+                        },
+                        "magnetometer": {
+                            "dropped": 0,
+                            "expected": 3105,
+                            "processed": 3105,
+                            "score": 100,
+                            "sequential_drops": {},
+                            "time_error": 0
+                        },
+                        "rgb_camera": {
+                            "dropped": 0,
+                            "expected": 9389,
+                            "processed": 9389,
+                            "score": 100,
+                            "sequential_drops": {},
+                            "time_error": 0
+                        },
+                        "sensor_misalignment": {
+                            "slam_camera_1-rgb_camera": 99,
+                            "slam_camera_2-rgb_camera": 99,
+                            "slam_camera_2-slam_camera_1": 100
+                        },
+                        "slam_camera_1": {
+                            "dropped": 2,
+                            "expected": 9389,
+                            "processed": 9387,
+                            "score": 99.97869873046875,
+                            "sequential_drops": {
+                                "1": 2
+                            },
+                            "time_error": 0
+                        },
+                        "slam_camera_2": {
+                            "dropped": 1,
+                            "expected": 9389,
+                            "processed": 9388,
+                            "score": 99.98934936523438,
+                            "sequential_drops": {
+                                "1": 1
+                            },
+                            "time_error": 0
+                        }
+                    },
+                    "device_id": "b851e61d-6200-4780-ae07-05d71bcb308b",
+                    "device_test_automation_enabled": false,
+                    "device_version": "49702050008900070",
+                    "end_time": 1729190476,
+                    "file_size": 4945468251,
+                    "filename": "ac8af381-cec4-4920-90b1-01a0ed51ef12.vrs",
+                    "firmware_version": "3.32.1",
+                    "hash_ca_id": "LTE4OTYzNDY3MjY=",
+                    "is_vio_preprocessing_enabled": false,
+                    "name": "16. Read and Don't Read 34",
+                    "notes": "9",
+                    "ntp_server_hostname": "",
+                    "ntp_time_enabled": false,
+                    "recording_profile": "profile28",
+                    "ticsync_enabled": false,
+                    "timecode_enabled": false,
+                    "timecode_trigger_enabled": false,
+                    "upload_destination": "META_STANDARD_INGESTION",
+                    "vio_data_saving_enabled": false,
+                    "vio_enabled": false,
+                    "vio_setup_mode": "Temple2",
+                    "tags": [
+                        {
+                            "title": "What type of reading material did you read? ",
+                            "tags": [
+                                "Print media (e.g. book/magazine/newspaper)"
+                            ]
+                        },
+                        {
+                            "title": "[Moderator] Participant Number",
+                            "tags": [
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                "creator_id": null,
+                "unique_id": null
+            }
+        ],
+        "results": [],
+        "nodes": [],
+        "session": null,
+        "subjects": [],
+        "location": null,
+        "file_name": "_ac8af381-cec4-4920-90b1-01a0ed51ef12",
+        "file_type": "vrs",
+        "description": null,
+        "file_size": "16931",
+        "file_size_gb": 1.5768222510815e-05,
+        "ground_truths": [],
+        "project_owner": "Ariane_ResearchLocation",
+        "tags": [],
+        "schema": "surreal_aria/v1",
+        "properties": {
+            "gps_s2_cells": [
+                "54900c90e1c",
+                "54900c90e3c",
+                "54900c911fc",
+                "54900c911e4",
+                "54900c90e14",
+                "54900c90e0c",
+                "54900c90e24",
+                "54900c90e04",
+                "54900c90e6c"
+            ],
+            "wps_s2_cells": []
+        },
+        "creator_id": null,
+        "unique_id": null
+    },
+    {
+        "id": "3381155652186355",
+        "__typename": "GaiaRecording",
+        "annotation_jobs": [],
+        "attachments": [],
+        "binaries": {
+            "count": 1
+        },
+        "capture_time": 1729190163,
+        "custom_file_metadata": [],
+        "upload_time": 1729201296,
+        "hardware": [],
+        "recordings": [],
+        "from_recording": [
+            {
+                "id": "907129427418886",
+                "__typename": "GaiaRecording",
+                "annotation_jobs": [],
+                "attachments": [],
+                "binaries": {
+                    "count": 0
+                },
+                "capture_time": 1729190163,
+                "custom_file_metadata": [],
+                "upload_time": 1729201382,
+                "hardware": [],
+                "recordings": [
+                    {
+                        "id": "421194710750139"
+                    },
+                    {
+                        "id": "566923899230574"
+                    },
+                    {
+                        "id": "1461097141244806"
+                    },
+                    {
+                        "id": "1579463229628801"
+                    },
+                    {
+                        "id": "3381155652186355"
+                    }
+                ],
+                "from_recording": [],
+                "results": [],
+                "nodes": [],
+                "session": null,
+                "subjects": [],
+                "location": null,
+                "file_name": "2069629d99f74e3caf554c12d69efebb",
+                "file_type": "vrs",
+                "description": null,
+                "file_size": "0",
+                "file_size_gb": 0,
+                "ground_truths": [],
+                "project_owner": "Ariane_ResearchMain",
+                "tags": [
+                    {
+                        "id": "613150280100107",
+                        "tag_name": "stub-parent"
+                    },
+                    {
+                        "id": "1119797892379392",
+                        "tag_name": "mps2.4"
+                    }
+                ],
+                "schema": "surreal_aria_recording_metadata/v1",
+                "properties": {
+                    "campaign": {
+                        "c_project_id": "1328930761416933",
+                        "c_project_name": "[External] Reading in the Wild Data Collection Pilot",
+                        "c_task_id": "556691300286531",
+                        "c_task_name": "16. Read and Don't Read"
+                    },
+                    "cohort": "external",
+                    "needs_anonymization": true,
+                    "encryption_enabled": true,
+                    "type": "real-bypass-quarantine",
+                    "start_time": 1729190163,
+                    "duration": 312.7862198499997,
+                    "user_id": "fd6fdb5307ccb280a82ee9b260e1f0c1",
+                    "telemetry_id": "ac8af381-cec4-4920-90b1-01a0ed51ef12",
+                    "companion_version": "180.0.0.2.119",
+                    "data_quality_stats": {
+                        "audio": {
+                            "dropped": 59,
+                            "expected": 15007790,
+                            "processed": 15007731,
+                            "score": 99.99960327148438,
+                            "sequential_drops": {
+                                "1": 59
+                            },
+                            "time_error": 46
+                        },
+                        "barometer": {
+                            "dropped": 0,
+                            "expected": 15366,
+                            "processed": 15366,
+                            "score": 100,
+                            "sequential_drops": {},
+                            "time_error": 0
+                        },
+                        "camera_timestamp_drop_scores": {
+                            "et": 2.401618719100952,
+                            "rgb": 0,
+                            "slam1": 0,
+                            "slam2": 0
+                        },
+                        "et_camera": {
+                            "dropped": 451,
+                            "expected": 18779,
+                            "processed": 18328,
+                            "score": 97.59838104248047,
+                            "sequential_drops": {
+                                "11": 1,
+                                "12": 1,
+                                "2": 49,
+                                "23": 1,
+                                "3": 39,
+                                "4": 11,
+                                "5": 14,
+                                "6": 4,
+                                "7": 5,
+                                "8": 1,
+                                "9": 1
+                            },
+                            "time_error": 0
+                        },
+                        "imu_1": {
+                            "dropped": 0,
+                            "expected": 313203,
+                            "processed": 313203,
+                            "score": 100,
+                            "sequential_drops": {},
+                            "time_error": 0
+                        },
+                        "imu_2": {
+                            "dropped": 0,
+                            "expected": 253049,
+                            "processed": 253049,
+                            "score": 100,
+                            "sequential_drops": {},
+                            "time_error": 0
+                        },
+                        "magnetometer": {
+                            "dropped": 0,
+                            "expected": 3105,
+                            "processed": 3105,
+                            "score": 100,
+                            "sequential_drops": {},
+                            "time_error": 0
+                        },
+                        "rgb_camera": {
+                            "dropped": 0,
+                            "expected": 9389,
+                            "processed": 9389,
+                            "score": 100,
+                            "sequential_drops": {},
+                            "time_error": 0
+                        },
+                        "sensor_misalignment": {
+                            "slam_camera_1-rgb_camera": 99,
+                            "slam_camera_2-rgb_camera": 99,
+                            "slam_camera_2-slam_camera_1": 100
+                        },
+                        "slam_camera_1": {
+                            "dropped": 2,
+                            "expected": 9389,
+                            "processed": 9387,
+                            "score": 99.97869873046875,
+                            "sequential_drops": {
+                                "1": 2
+                            },
+                            "time_error": 0
+                        },
+                        "slam_camera_2": {
+                            "dropped": 1,
+                            "expected": 9389,
+                            "processed": 9388,
+                            "score": 99.98934936523438,
+                            "sequential_drops": {
+                                "1": 1
+                            },
+                            "time_error": 0
+                        }
+                    },
+                    "device_id": "b851e61d-6200-4780-ae07-05d71bcb308b",
+                    "device_test_automation_enabled": false,
+                    "device_version": "49702050008900070",
+                    "end_time": 1729190476,
+                    "file_size": 4945468251,
+                    "filename": "ac8af381-cec4-4920-90b1-01a0ed51ef12.vrs",
+                    "firmware_version": "3.32.1",
+                    "hash_ca_id": "LTE4OTYzNDY3MjY=",
+                    "is_vio_preprocessing_enabled": false,
+                    "name": "16. Read and Don't Read 34",
+                    "notes": "9",
+                    "ntp_server_hostname": "",
+                    "ntp_time_enabled": false,
+                    "recording_profile": "profile28",
+                    "ticsync_enabled": false,
+                    "timecode_enabled": false,
+                    "timecode_trigger_enabled": false,
+                    "upload_destination": "META_STANDARD_INGESTION",
+                    "vio_data_saving_enabled": false,
+                    "vio_enabled": false,
+                    "vio_setup_mode": "Temple2",
+                    "tags": [
+                        {
+                            "title": "What type of reading material did you read? ",
+                            "tags": [
+                                "Print media (e.g. book/magazine/newspaper)"
+                            ]
+                        },
+                        {
+                            "title": "[Moderator] Participant Number",
+                            "tags": [
+                                "1"
+                            ]
+                        }
+                    ]
+                },
+                "creator_id": null,
+                "unique_id": null
+            }
+        ],
+        "results": [],
+        "nodes": [],
+        "session": null,
+        "subjects": [],
+        "location": null,
+        "file_name": "_ac8af381-cec4-4920-90b1-01a0ed51ef12",
+        "file_type": "vrs",
+        "description": null,
+        "file_size": "350308719",
+        "file_size_gb": 0.32625041808933,
+        "ground_truths": [],
+        "project_owner": "Ariane_ResearchEyeTracking",
+        "tags": [],
+        "schema": null,
+        "properties": null,
+        "creator_id": null,
+        "unique_id": null
+    }
+]

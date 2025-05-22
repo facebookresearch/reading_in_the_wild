@@ -1,0 +1,167 @@
+{
+    "id": 1061712745450928,
+    "author": "surreal_mps",
+    "annotation_type": "custom",
+    "annotation_status": "CREATED",
+    "creation_time": 1729211024,
+    "time_taken_secs": null,
+    "label": "EyeGaze",
+    "sublabel": null,
+    "value": null,
+    "comment": null,
+    "frame": null,
+    "end_frame": null,
+    "stream": null,
+    "data": {
+        "GazeInference": {
+            "status": "SUCCESS",
+            "message": ""
+        },
+        "InSessionCalibration": [
+            {
+                "start_time_us": 7993713754,
+                "end_time_us": 8051352756,
+                "params": [
+                    0.99697246261367,
+                    0.95669253914481,
+                    0.99165623363377,
+                    0.077500807505775,
+                    -0.025460243918429,
+                    0.015403800497391
+                ],
+                "session_uid": "9de62a03-3cab-4ab5-a999-b778d2444192",
+                "status": "SUCCESS",
+                "message": "",
+                "num_detections": 4845,
+                "diopter_delta": -0.084434181555229
+            }
+        ],
+        "CalibrationCorrection": [
+            {
+                "status": "SUCCESS",
+                "message": "",
+                "session_uid": "9de62a03-3cab-4ab5-a999-b778d2444192",
+                "generalized_error_rads_stats": {
+                    "mean": 0.033045643649999,
+                    "std": 0.027852424741904,
+                    "min": 0.00075850757853474,
+                    "max": 0.33164524475797,
+                    "p25": 0.018540871781299,
+                    "p50": 0.029915256629634,
+                    "p75": 0.042039060635868,
+                    "p95": 0.054287982258179
+                },
+                "calibrated_error_rads_stats": {
+                    "mean": 0.019572141050853,
+                    "std": 0.030789424261243,
+                    "min": 0.0003179336181842,
+                    "max": 0.35824825919169,
+                    "p25": 0.0097972821252781,
+                    "p50": 0.013912134202595,
+                    "p75": 0.01938553055869,
+                    "p95": 0.036006181360918
+                }
+            }
+        ],
+        "version": "3.1.0"
+    },
+    "context": {
+        "version": "3.1.0",
+        "fbpkgs": [
+            "surreal.mps.acs_operator:549",
+            "aria.et.target_pose_estimation:13"
+        ],
+        "status": "SUCCESS"
+    },
+    "properties": {
+        "version": "3.1.0",
+        "fbpkgs": [
+            "surreal.mps.acs_operator:549",
+            "aria.et.target_pose_estimation:13"
+        ],
+        "status": "SUCCESS",
+        "GazeInference": {
+            "status": "SUCCESS",
+            "message": ""
+        },
+        "InSessionCalibration": [
+            {
+                "start_time_us": 7993713754,
+                "end_time_us": 8051352756,
+                "params": [
+                    0.99697246261367,
+                    0.95669253914481,
+                    0.99165623363377,
+                    0.077500807505775,
+                    -0.025460243918429,
+                    0.015403800497391
+                ],
+                "session_uid": "9de62a03-3cab-4ab5-a999-b778d2444192",
+                "status": "SUCCESS",
+                "message": "",
+                "num_detections": 4845,
+                "diopter_delta": -0.084434181555229
+            }
+        ],
+        "CalibrationCorrection": [
+            {
+                "status": "SUCCESS",
+                "message": "",
+                "session_uid": "9de62a03-3cab-4ab5-a999-b778d2444192",
+                "generalized_error_rads_stats": {
+                    "mean": 0.033045643649999,
+                    "std": 0.027852424741904,
+                    "min": 0.00075850757853474,
+                    "max": 0.33164524475797,
+                    "p25": 0.018540871781299,
+                    "p50": 0.029915256629634,
+                    "p75": 0.042039060635868,
+                    "p95": 0.054287982258179
+                },
+                "calibrated_error_rads_stats": {
+                    "mean": 0.019572141050853,
+                    "std": 0.030789424261243,
+                    "min": 0.0003179336181842,
+                    "max": 0.35824825919169,
+                    "p25": 0.0097972821252781,
+                    "p50": 0.013912134202595,
+                    "p75": 0.01938553055869,
+                    "p95": 0.036006181360918
+                }
+            }
+        ]
+    },
+    "schema": null,
+    "entity_id": 907129427418886,
+    "annotation_job_id": 1484833965610672,
+    "project_owner": "Ariane_ResearchEyeTracking",
+    "attachments": {
+        "1051744276276510": {
+            "file_name": "personalized_eye_gaze.csv",
+            "upload_time": 1729211028,
+            "description": null,
+            "custom_file_metadata": {}
+        },
+        "412099181734427": {
+            "file_name": "general_eye_gaze.csv",
+            "upload_time": 1729211027,
+            "description": null,
+            "custom_file_metadata": {}
+        }
+    },
+    "comparison_score": null,
+    "version": null,
+    "vendor_url": null,
+    "vendor_platform": null,
+    "vendor_response_time": null,
+    "vendor_comment": null,
+    "vendor_response_id": null,
+    "vendor_queue_id": null,
+    "vendor_task_id": null,
+    "vendor_project_id": null,
+    "vendor_stage_id": null,
+    "vendor_workflow_id": null,
+    "vendor_job_id": null,
+    "vendor_unit_id": null,
+    "vendor_contributor_id": null
+}
