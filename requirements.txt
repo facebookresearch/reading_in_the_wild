@@ -1,0 +1,11 @@
+projectaria-tools
+torch
+lightning
+opencv-python
+einops
+pandas
+scipy
+iopath
+matplotlib
+ipykernel
+mediapy
