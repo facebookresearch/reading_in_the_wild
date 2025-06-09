@@ -80,6 +80,17 @@ aria_dataset_downloader --cdn_file ${PATH_TO_YOUR_JSON_FILE} --output_folder ${O
 To visualize gaze trajectories and the foveated patch on RGB frames, follow the example in the Jupyter notebook found here: [playground.ipynb](https://github.com/facebookresearch/reading_in_the_wild/tree/main/reading_in_the_wild_seattle/playground.ipynb).
 
 
+## Preprocessing
+
+- **Inference**: Can be used as-is. See sample code for usage details.
+- **Training**: To facilitate more efficient training, we pre-process some data before training. This includes:  
+  (i) extracting and projecting the gaze,
+  (ii) preprocessing the IMU data, and
+  (iii) loading and cropping the RGB images
+
+This offline pre-processing is done so that these operations don't need to be repeated at every training iteration. The preprocessing code can be found in the `data_processing` directory.
+
+
 ## Additional Resources
 For more details on data format and additional methods for visualizing and interacting with the data, please refer to the following resources:
 - [Project Aria Tools GitHub Repository](https://github.com/facebookresearch/projectaria_tools)
