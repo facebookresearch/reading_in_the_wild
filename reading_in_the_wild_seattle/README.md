@@ -85,7 +85,7 @@ However, the caveat is that you'd still need the VRS file if you want to use cam
 ## Loading the Data with Visualization
 To visualize gaze trajectories and the foveated patch on RGB frames, follow the example in the Jupyter notebook found here: [playground.ipynb](https://github.com/facebookresearch/reading_in_the_wild/tree/main/reading_in_the_wild_seattle/playground.ipynb).
 
-## Annotation clarification
+## Annotation Clarification
 The field `whisper_start` and `whisper_end` in the metadata and `ritw_annotations.csv` indicates the start and ending time of reading. 
 The start and end times of task 16 sequences where the user alternates between reading and non-reading activities are specified in `task16_annotations.csv`. 
 
