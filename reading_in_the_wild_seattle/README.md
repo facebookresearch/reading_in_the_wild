@@ -75,9 +75,10 @@ For example, to download only the `metadata_json`, and `mps`, which corresponds 
 aria_dataset_downloader --cdn_file ${PATH_TO_YOUR_JSON_FILE} --output_folder ${OUTPUT_FOLDER_PATH} --data_types 7 8
 ```
 
-### Option 3 - Download Preview MP4 files
+### Option 3 - Download MP4 files
 In the Download section, you can download a JSON file that contains URLs to all the data.
-Once you have the JSON file, you can use a simple script to download all the MP4 files from the "download_url" field under "video_main_rgb".
+Once you have the JSON file, you can use a simple script to download all the Preview MP4 files from the "download_url" field under "video_main_rgb".
+
 However, the caveat is that you'd still need the VRS file if you want to use camera configurations, as the camera configuration is stored in the VRS file. The camera configuration is is needed for projecting gaze ray to the RGB image. We are working on releasing the camera configurations extracted from vrs files. 
 
 
