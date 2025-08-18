@@ -89,6 +89,16 @@ To visualize gaze trajectories and the foveated patch on RGB frames, follow the 
 The field `whisper_start` and `whisper_end` in the metadata and `ritw_annotations.csv` indicates the start and ending time of reading. 
 The start and end times of task 16 sequences where the user alternates between reading and non-reading activities are specified in `task16_annotations.csv`. 
 
+## Preprocessing
+
+- **Inference**: Can be used as-is. See sample code for usage details.
+- **Training**: To facilitate more efficient training, we pre-process some data before training. This includes:  
+  (i) extracting and projecting the gaze,
+  (ii) preprocessing the IMU data, and
+  (iii) loading and cropping the RGB images
+
+This offline pre-processing is done so that these operations don't need to be repeated at every training iteration. The preprocessing code can be found in `data_processing.py`.
+
 ## Additional Resources
 For more details on data format and additional methods for visualizing and interacting with the data, please refer to the following resources:
 - [Project Aria Tools GitHub Repository](https://github.com/facebookresearch/projectaria_tools)
