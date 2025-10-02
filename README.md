@@ -1,4 +1,4 @@
-# Reading in the Wild
+# Reading in the Wild (NeurIPS 2025)
 
 [[📝 Blogpost]](https://www.projectaria.com/news/introducing-reading-recognition-in-the-wild/)
 [[📂 Project Page]](https://www.projectaria.com/datasets/reading-in-the-wild)
@@ -69,7 +69,7 @@ When using the dataset and code, please attribute it as follows:
 @inproceedings{yang25reading,
       title={Reading Recognition in the Wild},
       author={Charig Yang and Samiul Alam and Shakhrul Iman Siam and Michael Proulx and Lambert Mathias and Kiran Somasundaram and Luis Pesqueira and James Fort and Sheroze Sheriffdeen and Omkar Parkhi and Carl Ren and Mi Zhang and Yuning Chai and Richard Newcombe and Hyo Jin Kim},
-      booktitle={arXiv Preprint},
+      booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
       year={2025},
       url={https://arxiv.org/abs/2505.24848},
 }
