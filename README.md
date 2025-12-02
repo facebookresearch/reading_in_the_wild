@@ -1,4 +1,4 @@
-# Reading in the Wild (NeurIPS 2025)
+# Reading Recognition in the Wild (NeurIPS 2025)
 
 [[📝 Blogpost]](https://www.projectaria.com/news/introducing-reading-recognition-in-the-wild/)
 [[📂 Project Page]](https://www.projectaria.com/datasets/reading-in-the-wild)
